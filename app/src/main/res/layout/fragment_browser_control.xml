@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frmBrowserControl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="0dp"
+    tools:context=".BrowserControlFragment">
+
+    <ImageButton
+        android:id="@+id/btnAdd"
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_input_add" />
+
+    <ImageButton
+        android:id="@+id/btnSave"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@android:drawable/btn_star" />
+
+    <ImageButton
+        android:id="@+id/btnBookmarks"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_input_get" />
+</LinearLayout>
